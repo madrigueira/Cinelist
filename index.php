@@ -63,7 +63,6 @@ include("conexao.php");
             <?php } ?>
 
             <!-- POSTERS: ÚLTIMOS ASSISTIDOS (NOVO) -->
-            <div style="margin-bottom: 5%">
                 <p class="title-home-poster">Últimos Assistidos ≫</p>
                 <div class="grid-poster">
                     <?php while ($filme = $con_last_assistido->fetch_array()) { ?>
@@ -82,10 +81,8 @@ include("conexao.php");
                         </div>
                     <?php } ?>
                 </div>
-            </div>
 
             <!-- POSTERS: SÓ NOTA 10 -->
-            <div style="margin-bottom: 5%">
                 <p class="title-home-poster">Mais Bem Avaliados ≫</p>
                 <div class="grid-poster">
                     <?php while ($filme = $con_nota10->fetch_array()) { ?>
@@ -104,10 +101,8 @@ include("conexao.php");
                         </div>
                     <?php } ?>
                 </div>
-            </div>
 
             <!-- POSTERS: DRAMINHA AIAI QUE TRISTE KKKKK -->
-            <div style="margin-bottom: 5%">
                 <p class="title-home-poster">Filmes de Romance ≫</p>
                 <div class="grid-poster">
                     <?php while ($filme = $con_genero_romance->fetch_array()) { ?>
@@ -126,10 +121,8 @@ include("conexao.php");
                         </div>
                     <?php } ?>
                 </div>
-            </div>
 
             <!-- POSTERS: AÇÃO AI AI QUE PORRADÃO KKKK -->
-            <div style="margin-bottom: 5%">
                 <p class="title-home-poster">Filmes de Quadrinhos ≫</p>
                 <div class="grid-poster">
                     <?php while ($filme = $con_genero_hqs->fetch_array()) { ?>
@@ -148,7 +141,6 @@ include("conexao.php");
                         </div>
                     <?php } ?>
                 </div>
-            </div>
 
             <div class="footer">
                 <p>© 2021 Cinelist</p>
